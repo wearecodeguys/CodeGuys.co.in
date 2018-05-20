@@ -810,7 +810,7 @@ header {
     width: 0%;
     z-index: -1;
     -webkit-transition: 0.2s width;
-    transition: 0.2s width;
+    transition: 0.2s width;    
 }
 
 .service:hover:after {
@@ -1488,6 +1488,9 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     margin: 0;
+}
+.footer-copyright .credits {
+    display: none;
 }
 
 
